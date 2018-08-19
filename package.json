@@ -1,29 +1,31 @@
 {
-  "name": "projekt4",
+  "name": "webpack-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "project-structure",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server --port 10001",
-    "start": "npm run lite"
+    "build": "webpack-dev-server --mode development",
+    "build:p": "webpack --mode production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dominikslawkowski/CodersCamp-projekt-4.git"
-  },
-  "author": "",
+  "author": "maciej bartyński",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dominikslawkowski/CodersCamp-projekt-4/issues"
-  },
-  "homepage": "https://github.com/dominikslawkowski/CodersCamp-projekt-4#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
-    "lite-server": "^2.4.0"
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
   }
 }
