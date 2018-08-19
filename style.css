@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+  }
+  
+  .news-box {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    width: 350px;
+    background-color: white;
+    border: 1px solid rgba(145, 138, 145, 1);;
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(145, 138, 145, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(145, 138, 145, 1);
+    box-shadow: 2px 2px 5px 0px rgba(145, 138, 145, 1);
+  }
+  
+  .news-list {
+      height:auto;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:20px;
+      margin-bottom:20px;
+      width:90%;
+  }
+  
+  .news-box .news-list .news {
+      box-sizing: border-box;
+      width: 100%;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:10px;
+      margin-bottom:10px;
+      line-height: 1.2em;
+      border-bottom: 2px solid rgba(145, 138, 145, 0.8);
+      padding: 5px;
+  }
