@@ -27,5 +27,5 @@ function validation(data){
 }
 
 function redirectToDashboard(){
-  window.location.replace("/Dashboard.html");
+  window.location.replace("");
 }
