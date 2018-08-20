@@ -30,7 +30,7 @@ body {
   box-sizing: border-box;
   display: grid;
   width: 100%;
-  grid-template-columns: 4fr 3fr 1fr;
+  grid-template-columns: 7fr 2fr 1fr;
   align-items: center;
   justify-content: left;
   margin: 10px auto;
