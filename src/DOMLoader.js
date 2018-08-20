@@ -8,5 +8,6 @@ export default class DOMLoader {
         this.arrayActivities = Array.from(this.activity);
         this.contents = ['post', 'photo', 'site'];
         this.activities = ['likes', 'comments', 'shares'];
+        this.overlay = document.querySelector('.overlay');
     }
 }

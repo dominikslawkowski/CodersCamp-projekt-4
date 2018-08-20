@@ -14,6 +14,7 @@ body {
     -webkit-box-shadow: 2px 2px 5px 0px rgba(145, 138, 145, 1);
     -moz-box-shadow: 2px 2px 5px 0px rgba(145, 138, 145, 1);
     box-shadow: 2px 2px 5px 0px rgba(145, 138, 145, 1);
+    position: relative;
   }
   
   .news-list {
