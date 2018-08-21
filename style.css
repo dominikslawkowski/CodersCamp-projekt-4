@@ -3,10 +3,9 @@ body {
 }
 
 .messenger-box {
-  margin-top: 100px;
-  margin-right: auto;
-  margin-left: auto;
-  height: auto;
+  position: relative;
+  left: 82%;
+  top: 250px;
   width: 250px;
   background-color: white;
   border: 1px solid rgba(145, 138, 145, 1);
@@ -48,7 +47,7 @@ body {
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 220px;
+  right: 380px;
   height: 340px;
   background-color: white;
   width: 260px;
