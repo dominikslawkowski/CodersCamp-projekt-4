@@ -1,11 +1,11 @@
 const path = require('path');
 
 module.exports = {
-  entry: ['./src/loginScript.js'],
+  entry: ['./src/postsSection.js'],
   output: {
     path: __dirname,
     publicPath: '/',
-    filename: 'main.js',
+    filename: 'commentMain.js',
   },
   mode: 'production',
   module: {

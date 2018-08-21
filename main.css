@@ -220,3 +220,67 @@ section {
 .sn001_imag {
   background-position: center;
   background-size: cover; }
+
+  .sn2-posts{
+    width: 70%;
+    padding: 1%;
+}
+
+.sn2-posts-container{
+    padding: 1em 5%;
+    max-width: 90%;
+    border:solid 2px #f1f1f1;
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+.sn2-posts-article{
+    width: 100%;
+    display: flex;
+    background-color: #d7eefb;
+    margin: 10px 0;
+    border-radius: 10px;
+   
+}
+
+.sn2-posts-imgWrapper{
+    width: 15%;
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+   
+}
+
+.sn2-posts-img {
+    
+    width: 6vw;
+    border-radius: 50%;
+    height: 6vw;
+    
+
+    
+}
+
+.sn2-posts-articleWrapper{
+    width: 75%;
+    padding: 1%;
+    background-color: #fff;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    border-radius: 10px;
+    
+}
+
+.sn2-posts-articleContent{
+    width: 100%;
+    margin-right: 0;
+}
+
+.sn2-posts-articleContent hr {
+    width: 95%;
+}
+
+.sn2-posts-articleContent p {
+    margin-left: 5%;
+    margin-right: 3%;
+}
