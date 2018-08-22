@@ -1,17 +1,20 @@
+
+
+ /*****/
 body {
     overflow: hidden;
     display: flex;
     width: 100vw;
     height: 100vh;
     background-color: rgb(71, 157, 255);
-    justify-content: center; 
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
 
-.conteiner{
+.conteiner {
     height: 100%;
-    background-color:rgba(0, 0, 0, 0.123);
+    background-color: rgba(0, 0, 0, 0.123);
     width: 30vw;
     min-width: 400px;
     display: flex;
@@ -20,19 +23,21 @@ body {
     font-size: 3vw;
 }
 
-.header-all{
+.header-all {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     margin-top: 20vh;
     align-items: center;
 }
-.header{
+
+.header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
-    font-size: calc(80px + 10%);   
+    font-size: calc(80px + 10%);
 }
-.coment{
+
+.coment {
     color: rgb(228, 228, 228);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: calc(25px + 10%);
@@ -40,19 +45,19 @@ body {
     min-width: 400px;
     width: 100%;
 }
-.line{
+
+.line {
     height: 5px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.418);
 }
 
-.formm{
+.formm {
     width: 100%;
     margin-top: calc(20px + 10%);
-     
 }
 
-input{
+input {
     color: white;
     width: 100%;
     height: 50px;
@@ -83,7 +88,8 @@ input{
     /* Firefox 18- */
     color: white;
 }
-#btn{
+
+#btn {
     margin-top: 5%;
     font-size: 2em;
     margin-left: 25%;
@@ -100,7 +106,7 @@ input{
     transition: all .5s ease;
 }
 
-#btn:hover{
+#btn:hover {
     background-color: rgba(255, 255, 255, 0.39);
     cursor: pointer;
 }

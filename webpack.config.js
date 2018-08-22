@@ -4,12 +4,12 @@ var extractPlugin = new ExtractTextPlugin({
   filename: 'main.css'
 });
 module.exports = {
-  entry: ['./dashsrc/bundle.js'],
-  output: {
-    path: path.resolve(__dirname, 'dashbuild/'),
-    publicPath: 'dashbuild/',
-    filename: 'dashboard.js',
-  },
+  entry: ['./indexsrc/main.js'],
+    output: {
+      path: path.resolve(__dirname, 'indexbuild/'),
+      publicPath: 'indexbuild/',
+      filename: 'indexboard.js',
+    },
   mode: 'production',
   module: {
     rules: [

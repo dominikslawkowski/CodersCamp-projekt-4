@@ -14,11 +14,11 @@ entry: ['./dashsrc/bundle.js'],
   
   zaś żeby bundlować pliki indexu.html, analgiczny zapis to:  
   
-  entry: ['./dashsrc/bundle.js'],
+  entry: ['./indexsrc/main.js'],
   output: {
-    path: path.resolve(__dirname, 'dashbuild/'),
-    publicPath: 'dashbuild/',
-    filename: 'dashboard.js',
+    path: path.resolve(__dirname, 'indexbuild/'),
+    publicPath: 'indexbuild/',
+    filename: 'indexboard.js',
   },
 
 W źródle dashboarda (dashbuild) znajduje się plik stylów structure.css, który zawiera strukture
