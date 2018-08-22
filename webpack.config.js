@@ -1,35 +1,33 @@
-const path = require('path');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
+const path = require("path");
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var extractPlugin = new ExtractTextPlugin({
-  filename: 'main.css'
+  filename: "main.css"
 });
 module.exports = {
-  entry: ['./indexsrc/main.js'],
-    output: {
-      path: path.resolve(__dirname, 'indexbuild/'),
-      publicPath: 'indexbuild/',
-      filename: 'indexboard.js',
-    },
-  mode: 'production',
+  entry: ["./dashsrc/bundle.js"],
+  output: {
+    path: path.resolve(__dirname, "dashbuild/"),
+    publicPath: "dashbuild/",
+    filename: "dashboard.js"
+  },
+  mode: "production",
   module: {
     rules: [
       {
         test: /\.js$/,
-        loaders: ['babel-loader'],
-        exclude: /node_modules/,
+        loaders: ["babel-loader"],
+        exclude: /node_modules/
       },
       {
         test: /\.css$/,
         use: extractPlugin.extract({
-          use: ['css-loader']
+          use: ["css-loader"]
         })
       }
-    ],
+    ]
   },
   resolve: {
-    extensions: ['.js'],
+    extensions: [".js"]
   },
-  plugins: [
-    extractPlugin
-  ]
+  plugins: [extractPlugin]
 };
