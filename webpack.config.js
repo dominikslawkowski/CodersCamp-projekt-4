@@ -1,11 +1,14 @@
 const path = require('path');
-
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var extractPlugin = new ExtractTextPlugin({
+  filename: 'main.css'
+});
 module.exports = {
-  entry: ['./src/postsSection.js'],
+  entry: ['./dashsrc/bundle.js'],
   output: {
-    path: __dirname,
-    publicPath: '/',
-    filename: 'commentMain.js',
+    path: path.resolve(__dirname, 'dashbuild/'),
+    publicPath: 'dashbuild/',
+    filename: 'dashboard.js',
   },
   mode: 'production',
   module: {
@@ -17,11 +20,16 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
-      },
+        use: extractPlugin.extract({
+          use: ['css-loader']
+        })
+      }
     ],
   },
   resolve: {
     extensions: ['.js'],
   },
+  plugins: [
+    extractPlugin
+  ]
 };

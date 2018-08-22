@@ -2,7 +2,7 @@ body {
   margin: 0; }
 
 section {
-  width: 70%;
+  width: 100%;
   font-size: 16px;
   font-family: sans-serif;
   box-sizing: border-box;
@@ -222,7 +222,7 @@ section {
   background-size: cover; }
 
   .sn2-posts{
-    width: 70%;
+    width: 100%;
     padding: 1%;
 }
 
