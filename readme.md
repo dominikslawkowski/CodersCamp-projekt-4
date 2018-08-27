@@ -4,7 +4,7 @@
 ##### Login: Adam
 ##### Password : adma1
 
-###### if(you =! developer) DONT READ ANYMORE
+###### if(!developer) DONT READ ANYMORE
 analogicznie: Dashboard.html ma źródło robocze (skrypty i style) w folderze dashsrc, oraz bundla w folderze dashbuild index.html ma źródło robocze (skrypty i style) w folderze indexsrc, oraz bundla w folderze indexbuild
 
 przy edycji aby bundlować robocze skrypty i style dla dashboarda.html, należy w webpack.config. ustawić zapis:
