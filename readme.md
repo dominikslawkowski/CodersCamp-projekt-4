@@ -2,7 +2,7 @@
 #### Project within the CodersCamp course
 
 ##### Login: Adam
-##### Password : adma1
+##### Password : adam1
 
 ###### if(!developer) DONT READ ANYMORE
 analogicznie: Dashboard.html ma źródło robocze (skrypty i style) w folderze dashsrc, oraz bundla w folderze dashbuild index.html ma źródło robocze (skrypty i style) w folderze indexsrc, oraz bundla w folderze indexbuild
